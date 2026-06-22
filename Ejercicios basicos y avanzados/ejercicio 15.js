@@ -9,7 +9,7 @@ const productos = [
 ];
 
 // Bucle para mostrar productos que incluyan "Camiseta"
-for (let i = 0; i < products.length; i++) {
+for (let i = 0; i < productos.length; i++) {
   if (productos[i].includes("Camiseta")) {
     console.log(productos[i]);
   }
